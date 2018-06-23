@@ -1,5 +1,5 @@
 ---
-layout: page-new
+layout: page
 title: Collections
 permalink: /collection/
 icon: bookmark
