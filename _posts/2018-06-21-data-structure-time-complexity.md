@@ -26,7 +26,7 @@ while（-_-）
 
 二分法可以分几类问题 [参考资料](https://www.cnblogs.com/luoxn28/p/5767571.html)
 * 没有重复数据时
-
+```
     while(left <= right) {
         int mid = (left + right) / 2;
         if(array[mid] == key) {
@@ -38,8 +38,9 @@ while（-_-）
                 right = mid - 1;
             }
     }
-*有重复的数据查第一个
-
+```
+* 有重复的数据查第一个
+```
     while (left <= right) {
         int mid = (left + right) / 2;
         if (array[mid] >= key) {
@@ -51,8 +52,9 @@ while（-_-）
     if (left < array.length && array[left] == key) {
         return left;
     }
-*有重复的数据查最后一个
- 
+```
+* 有重复的数据查最后一个
+ ```
     while (left <= right) {
         int mid = (left + right) / 2;
         if (array[mid] <= key) {
@@ -65,7 +67,7 @@ while（-_-）
     if (right >= 0 && array[right] == key) {
           return right;
     }
-
+```
 ### O(nlogn)：
 while{二分查找}
 
