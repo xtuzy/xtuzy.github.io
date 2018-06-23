@@ -21,7 +21,7 @@ while（-_-）
 二分查找是在排序后才用的，通过取元素集中最中间的值来与要查找的value比较大小，判断在中间值的左右，然后重复上述步骤。
 二分法可以分几类问题 [参考资料](https://www.cnblogs.com/luoxn28/p/5767571.html)
 * 没有重复数据时
-```
+```c
     while(left <= right) {
         int mid = (left + right) / 2;
         if(array[mid] == key) {
@@ -35,7 +35,7 @@ while（-_-）
     }
 ```
 * 有重复的数据查第一个
-```
+```c
     while (left <= right) {
         int mid = (left + right) / 2;
         if (array[mid] >= key) {
@@ -49,7 +49,7 @@ while（-_-）
     }
 ```
 * 有重复的数据查最后一个
- ```
+ ```c
     while (left <= right) {
         int mid = (left + right) / 2;
         if (array[mid] <= key) {
