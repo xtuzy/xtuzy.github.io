@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: xtuzy's blog
-brief-intro:  php is best，but i dont use it
+title: Xtuzy's Blog -_-
+brief-intro:  PHP IS BEST！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xtuzy.github.io" # the base hostname & protocol for your site
 
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username:
 
-description_footer: 来自 xtuzy's blog！
+description_footer: From Xtuzy's Blog -_-！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
