@@ -1,5 +1,5 @@
 ---
-layout: page+
+layout: page_add
 title: Collections
 permalink: /collection/
 icon: bookmark

@@ -1,5 +1,5 @@
 ---
-layout: page+
+layout: page_add
 title: About
 permalink: /about/
 icon: heart
