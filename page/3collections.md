@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page+
 title: Collections
 permalink: /collection/
 icon: bookmark
-type: page
+type: 
 ---
 
 * content
@@ -18,8 +18,3 @@ type: page
 * [Marcovaldo](https://marcovaldong.github.io)
 	有机器学习基石的笔记
 
-
-
-## Comments
-
-{% include comments.html %}
