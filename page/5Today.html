@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Categories
-permalink: /category/
+title: Today
+permalink: /today/
 icon: th-list
 type: page
 ---
@@ -23,11 +23,13 @@ type: page
                             </time>
                             <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-                            {% include category.html %}
+                            
                             {% include tag.html %}
                         </li>
                         {% endif %}
+                        {% break %}
                     {% endfor %}
+                    {% break %}
                 {% endfor %}
             {% endfor %}
         </ul>
