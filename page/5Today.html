@@ -16,7 +16,7 @@ type: page
             <h2 id="{{category | first}}">{{category | first}}</h2>
                 {% for posts in category  %}
                     {% for post in posts %}
-                    {% if forloop.first %}
+                    
                         {% if post.url %}
                         <li>
                             <time>
@@ -28,8 +28,9 @@ type: page
                             {% include tag.html %}
                         </li>
                         {% endif %} 
-                    {% endif %} 
+                    
                     {% endfor %}
+                    {% break %}
                 {% endfor %}
             {% endfor %}
         </ul>
