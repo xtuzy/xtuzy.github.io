@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: list
 title: Paper  List
 permalink: /list/
 icon: bookmark

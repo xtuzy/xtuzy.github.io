@@ -4,8 +4,6 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>Welcome to xtuzy's blog </h1>
-        <small>七七八八的记录</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -26,19 +24,12 @@ layout: default
                     </div>
 
                     <div class="label-card">
-                    {% include category.html %}
-                    </div>
-
-                    <div class="label-card">
                     {% include tag.html %}
                     </div>
                 </div>
                 <div class="excerpt">
                     {{post.excerpt}}
-                </div>
-                <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
-                </div>
+                </div>               
                 <hr>
               </li>
             {% endfor %}
