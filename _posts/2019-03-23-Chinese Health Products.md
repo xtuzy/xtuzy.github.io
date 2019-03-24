@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "China Health products "
+title:  "Chinese Health products "
 date:   2019-03-23 23:14:54
 categories: English
 tags: 纽约时报 中国
