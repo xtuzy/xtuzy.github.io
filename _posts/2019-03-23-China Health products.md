@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "China Health products——《中国》版块 保健品"
+title:  "China Health products 中国保健品"
 date:   2019-03-23 23:14:54
 categories: English
-tags: 纽约时报 考研
+tags: 纽约时报
 ---
 
 
 
 
 
-**Spin** doctors A scandal **surrounds** a big seller of **traditional** medicine.
+A scandal **surrounds** a big seller of **traditional** medicine.
 
-`忽悠郎中 一家传统医药的大经销商生出一桩丑闻。`
+`一家传统医药的大经销商生出一桩丑闻。`
 
-How much is local government to blame? The **fake** advertisement was uncommonly **cruel**.
+How much is local government to blame? The **fake** advertisement was **uncommonly** **cruel**.
 
 `地方政府应该承担多少责任?虚假广告异常残忍。`
 
