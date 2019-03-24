@@ -8,7 +8,7 @@ layout: home
             {% for post in paginator.posts %}
               <li>
                 <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }} " onclick="return false;">{{ post.title }}</a>
                 </h2>
                 <div class="label">
                     <div class="label-card">
