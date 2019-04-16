@@ -7,9 +7,9 @@ code{
     font-size: 90%;
     border-radius: 3px;
     color: #000;
-    //background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, 0.06);
     border: 1px solid #d7d0d2;
-    font-family: "Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;
+    font-family: Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;
 }
 
 pre {
@@ -23,16 +23,16 @@ pre {
          margin: 0;
          padding: 0;
         font-size: 13px;
-        color:rgba(0,0,0,0.5);
+        color:#d1d1c9;
         border: none;
-        //background-color: #272822
+        background-color: #272822
      }
 }
 
 .highlight {
     border-radius: 3px;
 
-    background: #333;
+    background: #272822;
     .hll { background-color: #272822; }
     .c { color: #75715e } /* Comment */
     .err { color: #960050; background-color: #1e0010 } /* Error */

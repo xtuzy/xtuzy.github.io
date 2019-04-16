@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="{{ "/css/main.css " | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml " | prepend: site.baseurl | prepend: site.url }}">
-    <style> *{font-size:18px; background-color: #F2F2F2;} .highlighter-rouge{font-size:14px;font-family: Helvetica,sans-serif;}</style>
 
+{% if site.baidu_tongji_id %}
     <script>
-    // 百度统计代码   
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a80d26b1c127461f92d76e549179e843";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
+    // 百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
     </script>
-
+{% endif %}
 {% if site.google_analytics_id %}
     <script>
     // google analytics
